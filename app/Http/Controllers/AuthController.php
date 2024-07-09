@@ -10,7 +10,7 @@ class AuthController extends Controller
 {
     public function index()
     {
-        return Inertia::render('Auth/Login');
+        return Inertia::render('Auth.Login');
     }
 
     public function authentication(Request $request)
